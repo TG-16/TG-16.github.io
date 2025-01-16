@@ -1,0 +1,521 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="architecture.css">
+</head>
+<body onload="load()">
+    <div class="nav" id="nav">
+        <div class="logoimg">
+            <img src="logo.jpg">
+        </div>
+        <div onclick="showNav()" class="burgermenu"><img class="menui" src="menu.png" alt="menu.png" /></div>
+        <div id="navbar" class="navtab">
+            <ul>
+                <li onclick="hideNav()" id="close">
+                    <img class="closei" src="close.png" alt="close.png" />
+                </li>
+                <li id="li1" onclick="show(1)">Home</li>
+                <li id="li2" onclick="show(2)">Service</li>
+                <li id="li5" onclick="show(3)">Testimonial</li>
+                <li id="li6" onclick="show(5)">About Us</li>
+                <li id="li7" onclick="show(4)">Contact Us</li>
+            </ul>
+        </div>
+    </div>
+    <div class="wholecontainer1" id="wholecontainer1">
+        <!-- navigantion bar right here-->
+
+
+        <div class="frontcontent">
+
+            <div class="image1">
+                <!-- front content is here image plus front text-->
+                <img src="hand.jpeg">
+                <div class="text">
+                    <h1>AXUMARCH DESIGN STUDIO</h1>
+                    <h2>Extraordinary Architectural Realities! </h2>
+                    <button onclick="show(2)">Explore Our Work</button>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <h1 class="h1top">Top Projects</h1>
+        <div class="topprojets">
+            <!-- after 100 vh here we include there top projects -->
+
+            <div class="tproject">
+                <h2>Home Design</h2>
+                <img src="home.jpg">
+                <div class="ptext">
+                    <p>
+                        Focus on creating spaces that promote comfort, functionality, and personal expression.Architectural play curial role in enhancing the living experience.
+                    </p>
+                </div>
+            </div>
+
+            <div class="tproject">
+                <h2>Office Design</h2>
+                <img src="office.jpg">
+                <div class="ptext">
+
+                    <p>
+                        Modern office architecture emphasize open space that encourage communication while also providing areas for focused worrk.
+                    </p>
+                </div>
+            </div>
+
+            <div class="tproject">
+                <h2>Museum Design</h2>
+                <img src="service2.jpg">
+
+                <div class="ptext">
+                    <p>Architectes Strive to create spaces that enhace the visitor experience througn thoughtful layout.  </p>
+                </div>
+            </div>
+
+            <div class="tproject">
+                <h2>Urban Design</h2>
+                <img src="service4.jpg">
+                <div class="ptext">
+                    <p>
+                        Considerations for sustaniablity and adaptablity are essention as workplace evolvein response to changing work patterns.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div>
+            <!-- the about part is here-->
+
+        </div>
+
+
+
+        <h1 class="h1top">Services</h1>
+        <div class="sampleservices">
+            <!-- Top list of services they provdie-->
+            <div class="sampserv">
+                <img src="service1.jpg">
+                <p>
+                    <b>Architectural Design</b><br>
+                    From conceptual layouts to detailed blueprints, we focus on creating innovative, functional, and aesthetically pleasing spaces.
+                    Whether it's residential, commercial, or industrial projects,
+                    we combine creativity with precision to design structures that meet your unique needs while adhering to sustainable practices and modern standards.
+                    <button onclick="show(2)">Explore more.</button>
+                </p>
+            </div>
+
+
+        </div>
+
+
+        <h1 class="h1top">Testimonials</h1>
+        <div class="sampletest">
+            <!-- this is the testimonal -->
+
+            <div class="tests">
+
+                <div class="in">
+                    <img src="i3.jpg">
+
+                </div>
+                <div class="inp">
+                    <p>
+                        <em>
+                            "Working with this team was a fantastic experience.
+                            They truly understood our vision and transformed it into a stunning design that exceeded our expectation"
+                        </em>
+                        <b><br> <br><font style="color:goldenrod">— Emily Johnson, Homeowner</font></b>
+                    </p>
+                </div>
+            </div>
+            <div class="tests">
+
+                <div class="in">
+                    <img src="i4.jpg">
+                </div>
+                <div class="inp">
+                    <p>
+                        <em>
+                            "The architects were exceptional in bringing our dream office space to life.
+                            Their innovative designs and ability to balance functionality with aesthetics were truly remarkab"
+                        </em>
+                        <br><br><b> <font style="color:goldenrod">— Mark Stevens, CEO of Creative Solutions  </font></b>
+                    </p>
+                </div>
+            </div>
+            <div class="tests">
+
+                <div class="in">
+                    <img src="i1.jpg">
+                </div>
+                <div class="inp">
+                    <p>
+                        <em>
+                            "Their expertise and dedication made the entire process seamless.
+                            They transformed our outdated building into a modern, elegant structure that perfectly reflects our brand."
+                        </em>
+                        <br> <br><b><font style="color:goldenrod"> — Sarah Nguyen, Business Owner</font></b>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+    </div>
+
+    <div class="wholecontainer2" id="wholecontainer2">
+        <!--service section-->
+
+        <div class="image2">
+            <!-- front content is here image plus front text-->
+            <div class="slider">
+                <div class="slides">
+                    <img src="Church a.jpg" class="slide">
+                    <img src="default.webp" class="slide">
+                    <img src="hand.jpeg" class="slide">
+                </div>
+            </div>
+
+            <div class="text">
+                <h1 id="hh1">Our Expertise in Architecture and Design</h1>
+            </div>
+        </div>
+
+
+        <h1 id="hh2">Our Services</h1>
+
+
+
+        <div class="topservices">
+            <!-- Top list of services they provdie-->
+
+
+            <div class="sampserv-1">
+                <img src="p1.jpg">
+
+                <p>
+                    <b>Architectural Design</b><br>
+                    From conceptual layouts to detailed blueprints, we focus on creating innovative, functional, and aesthetically pleasing spaces.
+                </p>
+            </div>
+
+
+            <div class="sampserv-2">
+                <img src="p2.jpg">
+
+                <p>
+                    <b>Building Renovation and Restoration</b><br>
+                    From conceptual layouts to detailed blueprints, we focus on creating innovative, functional, and aesthetically pleasing spaces.
+                </p>
+            </div>
+
+
+            <div class="sampserv-1">
+                <img src="p3.jpg">
+
+                <p>
+                    <b>Landscape Architecture</b><br>
+                    From conceptual layouts to detailed blueprints, we focus on creating innovative, functional, and aesthetically pleasing spaces.
+                </p>
+            </div>
+
+            <div class="sampserv-2">
+                <img src="p4.jpg">
+
+                <p>
+                    <b>Urband and Reginonal Planning</b><br>
+                    From conceptual layouts to detailed blueprints, we focus on creating innovative, functional, and aesthetically pleasing spaces.
+                </p>
+            </div>
+
+
+        </div>
+
+
+
+
+
+        <h1 id="hh2">Other Services</h1>
+        <div class="card-services">
+            <!--other services they provide-->
+
+
+            <div class="service">
+                <img src="service2.jpg">
+                <h3>Commercial Architecture</h3>
+                <p>
+                    Our commercial architecture services are designed to bring business visions to life.
+                </p>
+            </div>
+
+            <div class="service">
+                <img src="service3.jpg">
+                <h3>Interior Design</h3>
+                <p>
+                    From selecting the perfect materials and color palettes to arranging furniture for maximum flow and usability.
+                </p>
+            </div>
+
+            <div class="service">
+                <img src="service4.jpg">
+                <h3>Urban Design</h3>
+                <p>
+                    Our urban planning services aim to shape thriving, sustainable communities.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="wholecontainer3" id="wholecontainer3">
+        <!-- this is the testimonal -->
+        <h1 class="h1top">Testimonials</h1>
+        <div class="realtest">
+            <!-- this is the testimonal -->
+
+            <div class="test">
+
+                <div class="i">
+                    <img src="i3.jpg">
+
+                </div>
+                <div class="ip">
+                    <p>
+                        <em>
+                            "Working with this team was a fantastic experience.
+                            They truly understood our vision and transformed it into a stunning design that exceeded our expectation"
+                        </em>
+                        <b><br> <br><font style="color:goldenrod">— Emily Johnson, Homeowner</font></b>
+                    </p>
+                </div>
+            </div>
+            <div class="test">
+
+                <div class="i">
+                    <img src="i4.jpg">
+                </div>
+                <div class="ip">
+                    <p>
+                        <em>
+                            "The architects were exceptional in bringing our dream office space to life.
+                            Their innovative designs and ability to balance functionality with aesthetics were truly remarkab"
+                        </em>
+                        <br><br><b> <font style="color:goldenrod">— Mark Stevens, CEO of Creative Solutions  </font></b>
+                    </p>
+                </div>
+            </div>
+            <div class="test">
+
+                <div class="i">
+                    <img src="i3.jpg">
+                </div>
+                <div class="ip">
+                    <p>
+                        <em>
+                            "Their expertise and dedication made the entire process seamless.
+                            They transformed our outdated building into a modern, elegant structure that perfectly reflects our brand."
+                        </em>
+                        <br> <br><b><font style="color:goldenrod"> — Sarah Nguyen, Business Owner</font></b>
+                    </p>
+                </div>
+            </div>
+
+            <div class="test">
+
+                <div class="i">
+                    <img src="i1.jpg">
+                </div>
+                <div class="ip">
+                    <p>
+                        <em>
+                            "Their expertise and dedication made the entire process seamless.
+                            They transformed our outdated building into a modern, elegant structure that perfectly reflects our brand."
+                        </em>
+                        <br> <br><b><font style="color:goldenrod"> — Sarah Nguyen, Business Owner</font></b>
+                    </p>
+                </div>
+            </div>
+            <div class="test">
+
+                <div class="i">
+                    <img src="i4.jpg">
+                </div>
+                <div class="ip">
+                    <p>
+                        <em>
+                            "Their expertise and dedication made the entire process seamless.
+                            They transformed our outdated building into a modern, elegant structure that perfectly reflects our brand."
+                        </em>
+                        <br> <br><b><font style="color:goldenrod"> — Sarah Nguyen, Business Owner</font></b>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="wholecontainer4" id="wholecontainer4">
+        <!--contact is here-->
+        <div class="why">
+
+            <h2>Give Us Your Feedback.</h2>
+            <form action="" method="post">
+                <input type="text" placeholder="Enter your Full Name"><br>
+                <input type="email" placeholder="Enter your Email"><br>
+                <input type="tel" placeholder="Enter your Phone Number"><br>
+                <textarea placeholder="Write your feedback here"></textarea><br>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+
+    </div>
+
+
+    <div id="wholecontainer5" class="wholecontainer5">
+
+        <!-- the about part is here-->
+
+        <div class="container c5">
+            <h2>Who We Are</h2>
+            <div id="about-back" class="aboutus-back"></div>
+            <div class="about-part1">
+                <p id="hero1p">Visionary Architects is a premier architecture firm driven by the passion to innovate and inspire. For over a decade, we’ve been designing world-class spaces that reflect our clients’ dreams and aspirations.</p>
+
+                <p id="hero2p">
+                    Our team of experts blends artistry, technology, and sustainability to create structures that stand the test of time."
+                    Mission: "To design spaces that inspire and connect people.
+                </p>
+            </div>
+            <div class="about-part2">
+                <div class="card">
+                    <div class="he" id="hero1">
+                        <img src="hero1.jpg" alt="images/hero1.jpg">
+                    </div>
+                    <div class="he" id="hero2">
+                        <img src="hero2.jpg" alt="images/hero2.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="vision">
+                <h4>Vision: "To lead the architectural world with innovation and sustainability."</h4>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <footer id="footer">
+        <!-- footer here-->
+        <div class="f1">
+            <div class="footer-address">
+                <p>Visionary Architects, 123 Design Street, New York, NY 10001</p>
+            </div>
+            <div class="footer-contact">
+                <p>contact@visionaryarchitects.com</p>
+                <p>+1 555-123-4567</p>
+            </div>
+            <div class="footer-social-media">
+                <h4>Instagram</h4>
+                <h4>Facebook</h4>
+                <h4>LinkedIn</h4>
+            </div>
+        </div>
+        <div class="term-policy">
+            <p>map</p>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+    </footer>
+
+    <script>
+
+        function load() {
+            wholecontainer5
+            document.getElementById('wholecontainer5').style.display = 'none';
+            document.getElementById('nav').style.display = 'flex';
+            document.getElementById('wholecontainer4').style.display = 'none';
+            document.getElementById('footer').style.display = 'block'
+            document.getElementById('wholecontainer3').style.display = 'none';
+            document.getElementById('wholecontainer2').style.display = 'none';
+            document.getElementById('wholecontainer1').style.display = 'block';
+            document.getElementById('footer').style.display = 'block';
+        }
+
+
+        let x = 0;
+        function show(x) {
+            if (x == 1) {
+                document.getElementById('nav').style.display = 'flex';
+                document.getElementById('wholecontainer2').style.display = 'none';
+                document.getElementById('wholecontainer3').style.display = 'none';
+                document.getElementById('wholecontainer4').style.display = 'none';
+                document.getElementById('wholecontainer1').style.display = 'block';
+                document.getElementById('footer').style.display = 'block';
+                document.getElementById('wholecontainer5').style.display = 'none';
+
+            }
+            else if (x == 2) {
+                document.getElementById('nav').style.display = 'flex';
+                document.getElementById('wholecontainer1').style.display = 'none';
+                document.getElementById('wholecontainer2').style.display = 'block';
+                document.getElementById('wholecontainer3').style.display = 'none';
+                document.getElementById('wholecontainer4').style.display = 'none';
+                document.getElementById('footer').style.display = 'block';
+                document.getElementById('wholecontainer5').style.display = 'none';
+            }
+            else if (x == 3) {
+                document.getElementById('nav').style.display = 'flex';
+                document.getElementById('wholecontainer1').style.display = 'none';
+                document.getElementById('wholecontainer2').style.display = 'none';
+                document.getElementById('wholecontainer3').style.display = 'block';
+                document.getElementById('footer').style.display = 'block';
+                document.getElementById('wholecontainer4').style.display = 'none';
+                document.getElementById('wholecontainer5').style.display = 'none';
+            }
+            else if (x == 5) {
+
+                document.getElementById('nav').style.display = 'flex';
+                document.getElementById('wholecontainer5').style.display = 'block';
+                document.getElementById('wholecontainer4').style.display = 'none';
+                document.getElementById('wholecontainer1').style.display = 'none';
+                document.getElementById('wholecontainer2').style.display = 'none';
+                document.getElementById('wholecontainer3').style.display = 'none';
+                document.getElementById('footer').style.display = 'block'
+
+            }
+            else if (x == 4) {
+                document.getElementById('nav').style.display = 'flex';
+                document.getElementById('wholecontainer4').style.display = 'block';
+                document.getElementById('wholecontainer1').style.display = 'none';
+                document.getElementById('wholecontainer2').style.display = 'none';
+                document.getElementById('wholecontainer3').style.display = 'none';
+                document.getElementById('footer').style.display = 'block';
+                document.getElementById('wholecontainer5').style.display = 'none';
+            }
+        }
+
+
+        function showNav() {
+            document.getElementById("navbar").classList.add("navshow");
+        }
+        function hideNav() {
+            document.getElementById("navbar").classList.remove("navshow");
+        }
+    </script>
+</body>
+</html>
