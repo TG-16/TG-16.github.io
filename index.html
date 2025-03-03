@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tewodros Gebeyaw | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <!-- Navigation Bar -->
+<nav>
+    <div class="logo">
+        <a href="#">Full Stack Developer</a>
+    </div>
+    <div class="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+
+    <!-- Hero Section -->
+    <header>
+        <h1>Tewodros Gebeyaw</h1>
+        <p id="typing-text"></p>
+        <a href="#projects" class="cta-button">View Projects</a>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <img src="profile-picture3.jpg" alt="Tewodros Gebeyaw" class="about-image">
+            <div class="about-info">
+                <p>I'm a <em><b style="font-size: large;">passionate Software Engineer and Full Stack Developer</b></em> with expertise in building scalable and efficient web applications. I specialize in backend development using Node.js, Express, MySQL, and MongoDB, while also crafting engaging front-end experiences with HTML, CSS, and JavaScript.
+
+                    I thrive on <em><b style="font-size: large;">solving complex problems, learning new technologies, and building impactful products.</b></em> Whether it's designing robust APIs, optimizing databases, or enhancing user experiences, I'm always eager to push my skills further and create meaningful solutions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Node.js</div>
+            <div class="skill">MySQL</div>
+            <div class="skill">Git & GitHub</div>
+            <div class="skill">Java</div>
+            <div class="skill">C++</div>
+            <div class="skill">MongoDB</div>
+            <div class="skill">Express</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <!-- Project 1 -->
+        <div class="project-card" id="project1">
+            <img src="project2.png" alt="Task Manager App">
+            <div class="project-info">
+                <h3>Task Manager App</h3>
+                <p>A web-based application that helps users organize and manage tasks.</p>
+                <a href="https://github.com/TG-16/task-manager" target="_blank" class="project-link">View on GitHub</a>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card" id="project2">
+            <img src="project1 (1).png" alt="Architectural Landing Page">
+            <div class="project-info">
+                <h3>Architectural Landing Page</h3>
+                <p>A modern website for an architectural firm showcasing their work.</p>
+                <a href="https://github.com/TG-16/Architectural-Landing-Page" target="_blank" class="project-link">View on GitHub</a>
+            </div>
+        </div>
+
+        TG-16.github.io
+        <!-- Project 3 -->
+        <div class="project-card" id="project3">
+            <img src="project3.png" alt="Expense Tracker">
+            <div class="project-info">
+                <h3>Expense Tracker</h3>
+                <p>A simple and efficient web-based application that helps users track their daily expenses. </p>
+                <a href="https://github.com/TG-16/expense-tracker" target="_blank" class="project-link">View on GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:tewodrosgebeyaw00@gmail.com">tewodrosgebeyaw00@gmail.com</a></p>
+        <p>Phone: <a href="tel:+251953224474">+251953224474</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/tewodrosgebeyaw/" target="_blank">LinkedIn Profile</a></p>
+    </section>
+
+    <!-- Project Pop-Up Modal -->
+    <div class="popup-overlay" id="popup-overlay">
+        <div class="popup">
+            <button id="close-popup" class="close-btn">&times;</button>
+            <div id="popup-content"></div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
