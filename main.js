@@ -41,7 +41,6 @@ projectCards.forEach(card => {
                 <h3>Task Manager App</h3>
                 <p><strong>Technologies:</strong> Node.js, Express, MongoDB, EJS, JavaScript, CSS</p>
                 <p>A web-based application that allows users to manage and organize their tasks efficiently. Features include task creation, updating, deletion, and mark as completed.</p>
-                <a href="https://tg-16.github.io/Architectural-Landing-Page/">Visit site</a>
                 <img src="project2.png" alt="Task Manager App" style="aspect-ratio:1:1; width:600px">
             `;
         } else if (projectId === 'project2') {
@@ -49,6 +48,7 @@ projectCards.forEach(card => {
                 <h3>Architectural Landing Page</h3>
                 <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
                 <p>A modern landing page designed for an architectural firm. It showcases the firm's work, services, and contact information in a clean, professional design.</p>
+                <a href="https://tg-16.github.io/Architectural-Landing-Page/">Visit site</a>
                 <img src="project1 (1).png" alt="Architectural Landing Page" style="aspect-ratio:1:1; width:600px">
             `;
         } else if (projectId === 'project3') {
